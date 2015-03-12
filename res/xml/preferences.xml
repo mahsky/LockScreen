@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="@string/activate_devicemanager_key"
+        android:title="@string/activate_devicemanager_title" >
+    </CheckBoxPreference>
+
+    <Preference
+        android:dependency="@string/activate_devicemanager_key"
+        android:key="@string/send_shortcut_key"
+        android:title="@string/send_shortcut_title" />
+    <Preference
+        android:key="@string/uninstall_key"
+        android:summary="@string/uninstall_subjet"
+        android:title="@string/uninstall" />
+    <Preference
+        android:key="@string/donate_key"
+        android:title="@string/donate" />
+
+</PreferenceScreen>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lock Screen</string>
+    <string name="shortcut_name">锁屏</string>
+    <string name="action_share">分享</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="step_1">第一步</string>
+    <string name="activate_devicemanager_key">activate_devicemanager_key</string>
+    <string name="activate_devicemanager_title">开启一键锁屏</string>
+    <string name="activate_devicemanager_subject">只有激活设备管理器管理权限才能一键锁屏</string>
+    <string name="step_2">第二步</string>
+    <string name="send_shortcut_key">send_shortcut_key</string>
+    <string name="send_shortcut_title">发送快捷方式到桌面</string>
+    <string name="send_shortcut_subject">发送快捷方式到桌面(方便使用)</string>
+    <string name="uninstall">卸载</string>
+    <string name="uninstall_key">uninstall_key</string>
+    <string name="uninstall_subjet">卸载前关闭一键锁屏</string>
+    <string name="donate">捐赠</string>
+    <string name="donate_key">donate_key</string>
+
+</resources>

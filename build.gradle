@@ -25,5 +25,7 @@ sourceSets {
         resources {
             srcDir 'res'
         }
+         manifest.srcFile 'AndroidManifest.xml'
     }
+
 }

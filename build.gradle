@@ -16,3 +16,14 @@ android {
     compileSdkVersion 19
     buildToolsVersion "21.1.2"
 }
+
+sourceSets {
+    main {
+        java {
+            srcDir 'src'
+        }
+        resources {
+            srcDir 'res'
+        }
+    }
+}

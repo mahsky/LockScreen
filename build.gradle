@@ -16,9 +16,8 @@ buildscript {
 android {
     compileSdkVersion 19
     buildToolsVersion "21.1.2"
-}
-
-sourceSets {
+    
+    sourceSets {
     main {
             manifest.srcFile 'AndroidManifest.xml'
             java.srcDirs = ['src']
@@ -29,3 +28,6 @@ sourceSets {
             assets.srcDirs = ['assets']
         }
 }
+}
+
+

@@ -28,6 +28,11 @@ android {
             assets.srcDirs = ['assets']
         }
 }
+ android {
+      lintOptions {
+          abortOnError false
+      }
+  }
 }
 
 
